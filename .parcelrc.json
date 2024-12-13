@@ -1,0 +1,16 @@
+{
+  "extends": "@parcel/config-default",
+  "targets": {
+    "public": {
+      "distDir": "./public/js",
+      "publicUrl": "/js",
+      "sourceMap": true,
+      "outputFormat": "global"
+    },
+    "dist": {
+      "distDir": "./dist",
+      "sourceMap": true,
+      "outputFormat": "global"
+    }
+  }
+}
